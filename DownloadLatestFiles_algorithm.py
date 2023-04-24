@@ -30,7 +30,7 @@ save_action = iface.mainWindow().findChild(QAction, 'mActionSaveProject')
 
 # Get the plugin path to the current project folder
 assets_folder = os.path.dirname(__file__)+"/assets/"
-github_link = 'https://github.com/surveyorstories/bhukamatha/releases/download/latest_files/'
+github_link = 'https://github.com/surveyorstories/bhukamatha/releases/download/updated_files/'
 
 
 class DownloadFiles(QgsProcessingAlgorithm):
@@ -84,11 +84,17 @@ class DownloadFiles(QgsProcessingAlgorithm):
             feedback.pushWarning(
                 '😎 Downloading the latest Style Files available (Requires an active internet connection to complete the task.)')
             styles_list = ['Polygon_Style.qml', 'Exploded_Lines_Style.qml',
+<< << << < HEAD
                            'Final_Vertices_Style.qml', 'Prill_lines_Style.qml']
+
+
+== == == =
+                           'Final_Vertices_Style.qml', 'Prill_lines_Style.qml', 'TopoPoint_Initial_Style.qml', 'TopoPoint_Setup_Style.qml', 'TopoLine_Initial_Style.qml', 'TopoLine_Setup_Style.qml', 'TopoPolygon_Initial_Style.qml', 'TopoPolygon_Setup_Style.qml']
+>> >>>> > 1abf0ae369f21beb837b5cbce2c19dbc96d1a30f
 
             # Downloading Style FIles
             for style in styles_list:
-                alg_params = {
+                alg_params= {
                     'DATA': '',
                     'METHOD': 0,  # GET
                     'OUTPUT': assets_folder + style,
