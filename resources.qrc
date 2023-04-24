@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/plugins/qrbarcodeitem" >
+        <file>images/barcode.svg</file>
+        <file>images/qrcode.svg</file>
+    </qresource>
+</RCC>
