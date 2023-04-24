@@ -92,11 +92,6 @@ class MyForm(QDialog):
     def setuplpms_button_clicked(self):
 
         setup_topo_layers()
-<<<<<<< HEAD
-        QMessageBox.information(None, 'Button Clicked',
-                                'Button 1 was clicked!')
-=======
->>>>>>> 1abf0ae369f21beb837b5cbce2c19dbc96d1a30f
 
     def revertlpms_button_clicked(self):
 

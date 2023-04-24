@@ -12,8 +12,8 @@ email=surveyorstories@gmail.com
 
 about=Bhu Kamatha plugin is a valuable tool developed as part of the AP Resurvey2020 project. This plugin simplifies the complex task of generating LPMs (Land Parcel Maps) by automating the process and providing accurate and efficient results.
 
-tracker=https://github.com/surveyorstories/Bhukamatha/issues
-repository=https://github.com/surveyorstories/Bhukamatha/
+tracker=https://github.com/surveyorstories/bhukamatha/issues
+repository=https://github.com/surveyorstories/bhukamatha/
 # End of mandatory metadata
 
 # Recommended items:
@@ -26,7 +26,7 @@ changelog= V 1.0.0 Beta Initial Release
 # Tags are comma separated with spaces allowed
 tags=Resurvey2020, LPMs
 
-homepage=https:https://github.com/surveyorstories/Bhukamatha/
+homepage=https://surveyorstories.github.io/bhukamathaweb/
 #category=Analysis
 icon=images/icon.png
 # experimental flag
